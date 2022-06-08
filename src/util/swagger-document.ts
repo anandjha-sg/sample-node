@@ -4,9 +4,9 @@ import { SWAGGER_URL } from "@config/secret";
 const SwaggerDocument = {
   swaggerDefinition: {
     info: {
-      title: "REST API for Press Wash & Go Application",
+      title: "sample project with TS and Node",
       version: "1.0.0",
-      description: "This is the REST API for Press Wash & Go Application",
+      description: "This is the sample project with TS and Node",
     },
     host: `${SWAGGER_URL}`,
     basePath: "/",
