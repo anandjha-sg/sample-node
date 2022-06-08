@@ -1,4 +1,4 @@
-# ts-bp BE
+# sample-node
 
 # File and folder Naming conventions
 
@@ -26,20 +26,21 @@ Swagger is to be used for API documentation.
 # Project Setup
 
 To setup the project, all you need to do is :
+
 - Copy default.env to .env and make necessary changes `cp default.env .env`
-- (Optional but recommended) Search whole project and replace `ts-bp` with your app name i.e APPNAME  (this will make changes in DOckerfile & compose file)
+- (Optional but recommended) Search whole project and replace `ts-bp` with your app name i.e APPNAME (this will make changes in DOckerfile & compose file)
 - `docker-compose up -d`
-- High level flow would be `routes > validators >  controllers > services > repository > model / entity`
+- High level flow would be `routes > validators > controllers > services > repository > model / entity`
 - There are sample services files just for understanding code flow / structure. Build one service of your onw and then remove them.
 -
 
 # Run Migration
+
 - To run migration `npm run migrate`
 
-
 # Deployment Changes
-- Make changes in .yml files present in root folder (your ECR repo etc)
 
+- Make changes in .yml files present in root folder (your ECR repo etc)
 
 # DB
 
